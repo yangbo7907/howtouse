@@ -1,0 +1,11 @@
+for pk in $(rpm -qa)
+
+do 
+
+    rpm -qR $pk|grep python-crypto
+
+    if [ $? -eq 0 ]; then
+         echo $pk
+    fi
+
+done
