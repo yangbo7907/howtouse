@@ -3,3 +3,5 @@ git test file 1, hello world
 I added something today - 20170921
 
 This line was updated on web page. - 20170921
+
+Test fetch, merge - 20170921
